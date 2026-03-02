@@ -40,7 +40,7 @@ from pydub import AudioSegment
 from config import MODEL_DIR,SKILL_ROOT,VENV_DIR
 
 # --- 日志系统初始化 ---
-logger = LoggerManager.setup_logger(logger_name="mp4-to-mp3-extractor")
+logger = LoggerManager.setup_logger(logger_name="purevocals-uvr-automator")
 
 def show_manual_download_guide(model_name: str):
     """下载失败时显示手动下载指南"""
