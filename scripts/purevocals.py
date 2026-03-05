@@ -34,10 +34,10 @@ import re
 from logger_manager import LoggerManager
 import env_manager
 import ensure_package
+from config import MODEL_DIR,SKILL_ROOT,VENV_DIR
 ensure_package.pip("pydub", "pydub","AudioSegment")
 # 现在添加所有导入语句
 from pydub import AudioSegment
-from config import MODEL_DIR,SKILL_ROOT,VENV_DIR
 
 # --- 日志系统初始化 ---
 logger = LoggerManager.setup_logger(logger_name="purevocals-uvr-automator")
