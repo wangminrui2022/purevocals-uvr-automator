@@ -55,8 +55,11 @@ python scripts/purevocals.py "F:/Input" "F:/Output" \--sample\_mode
 你可以直接对你的 Agent 说：
 
 请使用 purevocals-uvr-automator 技能，将 "F:\命理学-音频" 目录下的所有MP3文件提取干声，输出到 "F:\命理学-音频-干声"。
+
 请使用 purevocals-uvr-automator 技能，将 "F:\命理学-音频\猴哥说易\月支月令如何看一个人事业！.mp3" 文件提取干声，输出到 "F:\命理学-音频-干声"，--model参数使用"6_HP-Karaoke-UVR.pth"。
+
 请使用 purevocals-uvr-automator 技能，将 "F:\命理学-音频" 目录下的所有MP3文件提取干声，输出到 "F:\命理学-音频-干声"，添加参数--sample_mode。
+
 请使用 purevocals-uvr-automator 技能，将 "F:\命理学-音频" 目录下的所有MP3文件提取干声，输出到 "F:\命理学-音频-干声"，--model参数使用"UVR_MDXNET_KARA_2.onnx"。
 
 ```bash
