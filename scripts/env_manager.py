@@ -2,7 +2,7 @@
 # -*- coding: utf-8, -*-
 
 """
-Skill Name: PureVocals_UVR_Automator
+Skill Name: PureVocals-UVR-Automator
 Author: 王岷瑞/https://github.com/wangminrui2022
 License: Apache License
 Description: 这段代码是一个 Python 脚本的环境初始化与自动化配置模块。

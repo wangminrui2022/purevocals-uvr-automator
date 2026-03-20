@@ -8,7 +8,6 @@ metadata:
   openclaw:
     requires:
       bins:
-        - ffmpeg
         - python
 ---
 
@@ -27,4 +26,4 @@ metadata:
 3. **调用命令**：使用以下兼容性命令启动脚本（优先 python3，失败则 python）。脚本会自动创建虚拟环境、检测 GPU 并安装对应版本。
 
    ```bash
-   (python3 ./skills/PureVocals_UVR_Automator/scripts/purevocals.py "<输入路径>" "<输出目录>" [--model <模型名称>] [--sample_mode]) || (python ./skills/PureVocals_UVR_Automator/scripts/purevocals.py "<输入路径>" "<输出目录>" [--model <模型名称>] [--sample_mode])
+   (python3 ./skills/purevocals-uvr-automator/scripts/purevocals.py "<输入路径>" ["<输出目录>"] [--model <模型名>] [--window_size <数值>] [--aggression <数值>] [--chunk_duration <秒数>] [--sample_mode]) || (python ./skills/purevocals-uvr-automator/scripts/purevocals.py "<输入路径>" ["<输出目录>"] [--model <模型名>] [--window_size <数值>] [--aggression <数值>] [--chunk_duration <秒数>] [--sample_mode])
