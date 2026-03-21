@@ -61,6 +61,3 @@ python scripts/purevocals.py "F:/Input" "F:/Output" \--sample\_mode
 请使用 purevocals-uvr-automator 技能，将 "F:\命理学-音频" 目录下的所有MP3文件提取干声，输出到 "F:\命理学-音频-干声"，添加参数--sample_mode。
 
 请使用 purevocals-uvr-automator 技能，将 "F:\命理学-音频" 目录下的所有MP3文件提取干声，输出到 "F:\命理学-音频-干声"，--model参数使用"UVR_MDXNET_KARA_2.onnx"。
-
-```bash
-(python3 ./skills/purevocals-uvr-automator/scripts/purevocals.py "<输入路径>" ["<输出目录>"] [--model <模型名>] [--window_size <数值>] [--aggression <数值>] [--chunk_duration <秒数>] [--sample_mode]) || (python ./skills/purevocals-uvr-automator/scripts/purevocals.py "<输入路径>" ["<输出目录>"] [--model <模型名>] [--window_size <数值>] [--aggression <数值>] [--chunk_duration <秒数>] [--sample_mode])

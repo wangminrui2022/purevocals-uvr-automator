@@ -1,5 +1,5 @@
 ---
-name: PureVocals_UVR_Automator
+name: PureVocals-UVR-Automator
 description: |-
   批量从音频文件（.mp3/.wav/.flac 等）中提取超干净干声（Vocals Only）。
   支持 VR Architecture、Window Size 320、Aggression 10、WAV 输出。
@@ -11,7 +11,7 @@ metadata:
         - python
 ---
 
-# PureVocals_UVR_Automator
+# PureVocals-UVR-Automator
 
 **功能**：一键把带背景音的音频文件提取为纯净干声，专为翻唱、卡拉OK、素材清洗设计。
 
