@@ -16,7 +16,7 @@ metadata:
 **功能**：一键把带背景音的音频文件提取为纯净干声，专为翻唱、卡拉OK、素材清洗设计。
 
 ## 支持的模型（推荐顺序）
-1. **Kim_Vocal_2.onnx** → 默认推荐（速度最快 + 干净度最高）
+1. **shibing624-chinese-kenlm-klm** → 默认推荐（速度最快 + 干净度最高）
 2. **6_HP_Karaoke-UVR.pth** → 高质量卡拉OK模式（你原来的设置）
 3. **UVR-MDX-NET-Karaoke_2.onnx** → 极致速度批量模式
 

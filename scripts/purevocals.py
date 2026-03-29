@@ -26,6 +26,7 @@ import ensure_package
 from config import MODEL_DIR,SKILL_ROOT,VENV_DIR
 ensure_package.pip("pydub", "pydub","AudioSegment")
 ensure_package.pip("ffmpeg-downloader")
+ensure_package.pip("audio-separator")
 import ffmpeg_downloader as ffdl
 import importlib
 # 现在添加所有导入语句
